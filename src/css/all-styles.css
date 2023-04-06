@@ -1,3 +1,20 @@
+ /*
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+} */
+
 :root{
     --main-site-color: #FD9222;
     --text-site-color:#111111;
@@ -5,7 +22,7 @@
 }
 body {
 	margin: 0;
-	font-family: "Montserrat";
+	font-family: "Montserrat" sans-serif;
 	align-items: center;
 }
 button {
@@ -16,3 +33,16 @@ button {
 	margin: 0 auto;
 	max-width: 1200px;
 }
+@import url('./advantages-section.css');
+@import url('./footer-section.css');
+@import url('header-section.css');
+@import url('./hero-section.css');
+@import url('./how-it\'s-made-section.css');
+@import url('./modal-buy-now.css');
+@import url('./modal-explore-chocolate.css');
+@import url('./modal-review.css');
+@import url('./our-products-section.css');
+@import url('./reviews-section.css');
+@import url('./top-sellers-section.css');
+@import url('./unique-components-section.css');
+@import url('./subscribe-section.css');
