@@ -1,0 +1,112 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.hero-section {
+    min-height: 600px;
+}
+
+.hero-container {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.container {
+    padding: 0px 32px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.hero-subtitle {
+    max-width: 484px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.hero-btn-container {
+    /* display: flex;
+    align-items: center; */
+    
+}
+
+.hero-btn-modal {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    min-width: 144px;
+    min-height: 45px;
+    padding: 14px 40px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 100px;
+    background-color: #FD9222;
+}
+
+.hero-btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    min-width: 183px;
+    min-height: 45px;
+    height: 100%;
+    padding: 14px 40px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    background-color: transparent;
+    align-items: center;
+}
+
+.hero-btn-scroll {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    /* margin-left: auto; */
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .hero-section {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/hero-img/hero-1x.jpg);
+        background-color: #FCF1E0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 30px;
+        max-width: 1136px;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    .hero-section {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/hero-img/hero-2x.jpg);
+        background-color: #FCF1E0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 30px;
+        max-width: 1136px;
+    }
+}
