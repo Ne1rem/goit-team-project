@@ -119,7 +119,7 @@
 }
 
 .hero-btn-scroll:is(:hover, :focus) {
-    background-color: #FCF1E0;
+    background-color: #FFFFFF;
     color: var(--main-site-color);
     cursor: pointer;
 }
