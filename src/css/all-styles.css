@@ -27,6 +27,7 @@
 @import url('./top-sellers-section.css');
 @import url('./unique-components-section.css');
 @import url('./subscribe-section.css');
+
 :root{
     --main-site-color: #FD9222;
     --text-site-color:#111111;
