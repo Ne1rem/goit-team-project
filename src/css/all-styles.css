@@ -1,0 +1,33 @@
+
+@import url('./advantages-section.css');
+@import url('./footer-section.css');
+@import url('./header-section.css');
+@import url('./hero-section.css');
+@import url('./how-its-made-section.css');
+@import url('./modal-buy-now.css');
+@import url('./modal-explore-chocolate.css');
+@import url('./modal-review.css');
+@import url('./our-products-section.css');
+@import url('./reviews-section.css');
+@import url('./top-sellers-section.css');
+@import url('./unique-components-section.css');
+@import url('./subscribe-section.css');
+
+:root{
+    --main-site-color: #FD9222;
+    --text-site-color:#111111;
+    --back-ground-color:#1E1823;
+}
+body {
+	margin: 0;
+	font-family: "Montserrat" sans-serif;
+	align-items: center;
+}
+button {
+	cursor: pointer;
+}
+.container {
+	padding: 0px 32px;
+	margin: 0 auto;
+	max-width: 1200px;
+}
