@@ -13,18 +13,27 @@
 .header-logo {
   display: flex;
   align-items: center;
+  margin-right: 188px;
+}
+
+.header-logo-text {
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
   letter-spacing: -0.03em;
   color: #111111;
-
-  margin-right: 188px;
 }
+
 .header-logo-simply {
   font-style: italic;
 }
+
+.header-logo-text::after {
+  display: block;
+  background-image: url(../images/logochoco-desktop.svg);
+}
+
 .header-sections {
   display: flex;
   align-items: center;
