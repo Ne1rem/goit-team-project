@@ -73,8 +73,16 @@
 .list {
 }
 .components-item {
+  width: 335px;
+  height: 270px;
 }
 .components-link {
+  width: 335px;
+  height: 270px;
+
+  padding: 28px 55px 71px;
+  border-radius: 15px;
+  background-color: var(--main-site-color);
 }
 .milk-chocolate {
 }
