@@ -29,9 +29,8 @@
   font-style: italic;
 }
 
-.header-logo-text::after {
-  display: block;
-  background-image: url(../images/logochoco-desktop.svg);
+.header-logo-icon {
+  margin-left: 4px;
 }
 
 .header-sections {
