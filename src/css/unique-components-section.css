@@ -1,0 +1,49 @@
+/* .container {
+  padding: 0px 32px;
+	margin: 0 auto;
+	max-width: 1200px;
+} */
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1200px) {
+}
+
+.components {
+}
+.components-container {
+}
+.components-title {
+}
+.components-title-color {
+  color: var(--main-site-color);
+}
+.components-descr {
+}
+.components-subtitle {
+}
+.components-list {
+}
+.list {
+}
+.components-item {
+}
+.components-link {
+}
+.milk-chocolate {
+}
+.components-modal-images {
+}
+.components-card-modal {
+}
+.components-modal-subtitle {
+}
+.components-modal-color-btn {
+}
+.btn {
+}
+.components-modal-white-btn {
+}
+.components-modal-text {
+}
