@@ -2,11 +2,11 @@
   color: var(--main-site-color);
 }
 .components-subtitle {
-  /* position: absolute; */
+  position: absolute;
   /* width: 128px;
-  height: 18px;
+  height: 18px; */
   left: 28px;
-  top: 224px; */
+  bottom: 28px;
 
   font-weight: 600;
   font-size: 14px;
@@ -17,7 +17,7 @@
 @media screen and (min-width: 375px) {
   .components {
     padding: 72px 20px 0;
-    /* text-align: center; */
+    text-align: center;
   }
   .components-title {
     width: 283px;
@@ -79,6 +79,7 @@
 .milk-chocolate {
 }
 .components-modal-images {
+  position: relative;
 }
 .components-card-modal {
 }
