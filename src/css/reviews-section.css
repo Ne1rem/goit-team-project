@@ -4,9 +4,23 @@
   padding: 0;
   margin: 0;
 }
+.review-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #111111;
+  text-align: center;
+  margin-bottom: 24px;
+}
 .review-li {
+  position: relative;
   display: inline-block;
   margin-right: 28px;
+  margin-bottom: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
   background: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
   box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
@@ -16,4 +30,43 @@
   border: 1px solid #fd9222;
   border-radius: 100px;
   padding: 14px 40px;
+  text-align: center;
+}
+.review-p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(17, 17, 17, 0.7);
+  text-align: center;
+  padding: 0;
+}
+
+.review-span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(253, 146, 34, 1);
+}
+.reviews-h {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(17, 17, 17, 1);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 49px;
+}
+.img-review {
+  position: absolute;
+}
+.review-banner {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
