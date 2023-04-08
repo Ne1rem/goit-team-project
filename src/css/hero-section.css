@@ -12,7 +12,7 @@
 @media screen and (max-width: 374px) {
 }
 
-/* Стилі для екранів з шириною не менше 376px і не більше 767px */
+/* Стилі для екранів з шириною не менше 375px і не більше 767px */
 @media screen and (min-width: 375px) and (max-width: 767px) {
     .container {
         padding: 0px 20px;
