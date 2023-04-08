@@ -1,5 +1,5 @@
 .products-container {
-  padding: 128px 0;
+  padding-bottom: 72px;
 }
 .products-title {
   display: flex;
@@ -103,14 +103,11 @@
   fill: rgba(17, 17, 17, 0.1);
 }
 @media screen and (min-width: 375px) {
-  .products-container {
-    padding: 72px 0;
-  }
 }
 
 @media screen and (min-width: 768px) {
   .products-container {
-    padding: 100px 0;
+    padding-bottom: 100px;
   }
   .products-title {
     margin-bottom: 50px;
@@ -128,7 +125,7 @@
 
 @media screen and (min-width: 1200px) {
   .products-container {
-    padding: 128px 0;
+    padding-bottom: 128px;
   }
   .products-item {
     width: calc((100% - 18px * 3) / 4);
