@@ -153,21 +153,23 @@
 .milk-chocolate {
 }
 .components-modal-images {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+}
+.components-link.milk-chocolate {
+  width: 270px;
 }
 .components-card-modal {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   position: absolute;
   top: 0;
   left: 0;
   width: 270px;
   height: 270px;
+  background-color: #fff;
 }
 .components-modal-subtitle {
+  /* position: absolute; */
+  display: flex;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.22;
