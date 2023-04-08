@@ -2,7 +2,7 @@
 @media screen and (min-width: 375px) {
   .container {
     padding: 0 20px;
-    margin: 0 auto;
+    margin: 0;
   }
 
   .header {
@@ -57,7 +57,7 @@
     background-color: #1e1823;
     position: fixed;
     top: 0;
-    left: 155px;
+    right: 0;
     padding: 136px 46px 20px 20px;
     opacity: 0;
     visibility: hidden;
@@ -137,15 +137,24 @@
 
 /* Стилі для таблета */
 @media screen and (min-width: 768px) {
-}
-
-/* Стилі для десктопа */
-@media screen and (min-width: 1200px) {
-  .container {
-    padding: 0 32px;
-    margin: 0 auto;
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
+  .header-logo {
+    margin-right: 503px;
+  }
+
+  .mobile-btn-open {
+    width: 32px;
+    height: 32px;
+  }
+}
+/* Стилі для десктопа */
+@media screen and (min-width: 1200px) {
   .header {
     padding-top: 24px;
     padding-bottom: 32px;
