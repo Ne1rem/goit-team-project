@@ -29,8 +29,10 @@
   .components {
     padding: 72px 20px 0;
     text-align: center;
+    margin: 0 auto;
   }
   .components-container {
+    margin: 0 auto;
     max-width: 335px;
     margin-bottom: 72px;
   }
@@ -70,18 +72,20 @@
     gap: 20px;
   }
   .components-link {
+    position: relative;
     display: flex;
     width: 335px;
     height: 270px;
+    padding: 28px 55px 71px;
   }
   .components-item {
+    position: relative;
     display: flex;
     justify-content: center;
-    position: relative;
+
     width: 335px;
     height: 270px;
 
-    padding: 28px 55px 71px;
     border-radius: 15px;
     border: 1px solid #fd9222;
   }
@@ -125,6 +129,8 @@
     padding-top: 128px;
   }
   .components-container {
+    padding: 0px 32px;
+    margin: 0 auto;
     max-width: 1136px;
     margin-bottom: 128px;
   }
@@ -137,6 +143,7 @@
   }
   .components-link {
     width: 270px;
+    padding: 28px 36px 82px 28px;
   }
   .components-item {
     width: 270px;
@@ -146,17 +153,47 @@
 .milk-chocolate {
 }
 .components-modal-images {
-  /* position: relative; */
+}
+.components-link.milk-chocolate {
+  width: 270px;
 }
 .components-card-modal {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 270px;
+  background-color: #fff;
 }
 .components-modal-subtitle {
+  /* position: absolute; */
+  display: flex;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.03em;
+  color: var(--text-site-color);
+  margin-bottom: 8px;
+}
+.components-btns {
+  border: 1px solid var(--main-site-color);
+  border-radius: 35px;
+  padding: 6px 16px;
 }
 .components-modal-color-btn {
-}
-.btn {
+  background-color: var(--main-site-color);
 }
 .components-modal-white-btn {
+  background-color: #fafafa;
 }
 .components-modal-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.02em;
+  color: #111111;
+  margin-top: 14px;
+  overflow-y: scroll;
 }
