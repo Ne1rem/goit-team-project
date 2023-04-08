@@ -16,7 +16,7 @@
   margin-right: 188px;
 }
 
-.header-logo-text {
+.header-logo-link {
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 18px;
@@ -56,9 +56,6 @@
 
 .header-sections-link {
   color: #111111;
-}
-
-.header-social {
 }
 
 .header-social-list {
