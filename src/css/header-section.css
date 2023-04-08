@@ -1,7 +1,9 @@
 .container {
   padding: 0 32px;
   margin: 0 auto;
-  width: 1200px;
+}
+
+@media screen and(min-width:1200px) {
 }
 
 .header {
@@ -32,6 +34,11 @@
 .header-logo-icon {
   fill: #fd9222;
   margin-left: 4px;
+}
+
+.header-navigation {
+  display: flex;
+  flex-direction: row;
 }
 
 .header-sections {
