@@ -18,11 +18,15 @@ footer > .container {
 }
 .footer {
   width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: #ffffff;
 }
 @media screen and (min-width: 768px) {
   .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 .footer-name {
@@ -53,12 +57,12 @@ footer > .container {
 }
 @media screen and (min-width: 768px) {
   .footer-up {
+    display: flex;
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer-up {
-    display: flex;
-    flex-direction: row;
     margin-bottom: 62px;
   }
 }
@@ -74,6 +78,11 @@ footer > .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .footer-contacts {
+    gap: 52px;
+  }
 }
 .footer-contacts-block > p {
   margin-bottom: 14px;
@@ -114,7 +123,17 @@ footer > .container {
 .footer-social-list {
   display: flex;
   flex-direction: row;
-  gap: 18px;
+  gap: 14px;
+}
+@media screen and (min-width: 768px) {
+  .footer-social-list {
+    gap: 21px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-social-list {
+    gap: 18px;
+  }
 }
 .footer-social-item {
 }
@@ -147,6 +166,8 @@ footer > .container {
 }
 @media screen and (min-width: 768px) {
   .footer-nav-list {
+    flex-direction: row;
+    gap: 24px;
   }
 }
 @media screen and (min-width: 1200px) {
