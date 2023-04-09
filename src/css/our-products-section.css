@@ -99,7 +99,7 @@
 
 @media screen and (min-width: 375px) {
   .container {
-    width: 335px;
+    width: 375px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -122,7 +122,7 @@
 }
 @media screen and (min-width: 1200px) {
   .our-products .container {
-    width: 1134px;
+    width: 1200px;
   }
   .our-products .products-container {
     padding-bottom: 128px;
