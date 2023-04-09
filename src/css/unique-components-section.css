@@ -1,3 +1,7 @@
+.components-title-wrap {
+  width: 411px;
+}
+
 .components-title-color {
   color: var(--main-site-color);
 }
@@ -34,14 +38,12 @@
   .components-container {
     margin: 0 auto;
     max-width: 335px;
-    padding-bottom: 72px;
   }
   .components img {
     max-width: 224px;
   }
   .components-title {
     width: 283px;
-    height: 72px;
 
     font-weight: 600;
     font-size: 20px;
@@ -55,7 +57,6 @@
 
   .components-descr {
     width: 335px;
-    height: 108px;
 
     font-weight: 400;
     font-size: 14px;
@@ -71,23 +72,108 @@
     flex-direction: column;
     gap: 20px;
   }
-  .components-link {
-    position: relative;
-    display: flex;
-    width: 335px;
-    height: 270px;
-    padding: 28px 55px 71px;
-  }
+
   .components-item {
     position: relative;
     display: flex;
     justify-content: center;
-
+    padding: 28px 55px 71px;
     width: 335px;
     height: 270px;
 
     border-radius: 15px;
     border: 1px solid #fd9222;
+
+    transition-property: transform, opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .components-card-modal {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    padding: 28px;
+    width: 335px;
+    height: 270px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    text-align: left;
+
+    opacity: 0;
+    transform: translateY(100%);
+    transition-property: transform, opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: auto;
+
+    transition-property: transform, opacity;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .components-item:is(:hover, :focus) .components-card-modal {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .components-item:is(:hover, :focus) {
+    border: none;
+  }
+  .components-item:is(:hover, :focus) .components-subtitle {
+    opacity: 0;
+  }
+  .components-modal-subtitle {
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.03em;
+    color: var(--text-site-color);
+    margin-bottom: 8px;
+  }
+  .modal-btns-list {
+    display: flex;
+    gap: 6px;
+  }
+
+  .components-btns {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--main-site-color);
+    border-radius: 35px;
+    padding: 6px 16px;
+  }
+  .components-modal-color-btn {
+    background-color: var(--main-site-color);
+  }
+  .components-modal-color-btn:is(:hover, :focus) {
+    background: #fcf1e0;
+    color: var(--main-site-color);
+  }
+  .components-modal-white-btn {
+    background-color: #fafafa;
+  }
+  .components-modal-white-btn:is(:hover, :focus) {
+    background: var(--main-site-color);
+    color: #fafafa;
+  }
+  .components-modal-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.02em;
+    color: #111111;
+    margin-top: 14px;
+    overflow-y: scroll;
   }
 }
 
@@ -97,11 +183,10 @@
   }
   .components-container {
     max-width: 704px;
-    padding-bottom: 100px;
   }
   .components-title {
     min-width: 411px;
-    /* height: 56px; */
+
     margin-bottom: 28px;
 
     font-size: 24px;
@@ -109,7 +194,6 @@
   }
   .components-descr {
     width: 486px;
-    height: 72px;
     margin: 0 auto 50px;
   }
   .components-list {
@@ -124,6 +208,9 @@
     width: 336px;
     flex-basis: calc((100% - 32px) / 2);
   }
+  .components-card-modal {
+    width: 336px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .components {
@@ -133,7 +220,6 @@
     padding: 0px 32px;
     margin: 0 auto;
     max-width: 1136px;
-    padding-bottom: 128px;
   }
   .components img {
     max-width: 206px;
@@ -149,110 +235,11 @@
   .components-item {
     width: 270px;
   }
+  .components-card-modal {
+    width: 270px;
+  }
 }
 
-.milk-chocolate {
-}
 .components-modal-images {
   opacity: 1;
-}
-.components-link {
-  width: 270px;
-}
-.components-card-modal {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  padding: 28px;
-  width: 270px;
-  height: 270px;
-  background-color: #fff;
-  border-radius: 15px;
-  border: 1px solid #fff;
-  text-align: left;
-
-  opacity: 0;
-  transform: translateY(100%);
-  transition-property: transform, opacity;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: auto;
-}
-/* .components-card-modal::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transform: translateY(-100%);
-} */
-.components-item:is(:hover, :focus) .components-card-modal {
-  transform: translateY(0);
-  opacity: 1;
-}
-/*
-.components-card-modal:is(:hover, :focus) {
-  transform: translateY(0);
-  opacity: 1;
-} */
-
-.components-modal-subtitle {
-  display: flex;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.22;
-  letter-spacing: 0.03em;
-  color: var(--text-site-color);
-  margin-bottom: 8px;
-}
-.modal-btns-list {
-  display: flex;
-  gap: 6px;
-}
-.modal-btns-item {
-}
-.components-btns {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 1.2;
-
-  display: flex;
-  align-items: center;
-  border: 1px solid var(--main-site-color);
-  border-radius: 35px;
-  padding: 6px 16px;
-}
-.components-modal-color-btn {
-  background-color: var(--main-site-color);
-}
-.components-modal-color-btn:is(:hover, :focus) {
-  background: #fcf1e0;
-  color: var(--main-site-color);
-}
-.components-modal-white-btn {
-  background-color: #fafafa;
-}
-.components-modal-white-btn:is(:hover, :focus) {
-  background: var(--main-site-color);
-  color: #fafafa;
-}
-.components-modal-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: 0.02em;
-  color: #111111;
-  margin-top: 14px;
-  overflow-y: scroll;
-}
-.is.hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
 }
