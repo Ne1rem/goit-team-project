@@ -5,6 +5,11 @@
     min-height: 600px;
     padding: 0 40px;
     margin: 0 auto;
+    background-color: #FCF1E0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
 }
 .hero-subtitle {
     font-family: 'Montserrat', sans-serif;
@@ -34,7 +39,6 @@
     border-radius: 100px;
     background-color: var(--main-site-color);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
     min-width: 144px;
     max-height: 45px;
     padding: 14px 40px;
@@ -113,27 +117,9 @@
     .hero-container {
         max-width: 335px;
         min-height: 621px;
-        padding: 0px 20px;
-    }
-    .hero-section {
-        min-height: 621px;
-        padding: 0px 10px 71px;
     }
     .hero-subtitle {
-        min-height: 72px;
-        line-height: 1.2;
-        max-width: 299px;
-        font-size: 20px;
-        line-height: 1.2;
         margin-bottom: 0;
-    }
-    .hero-subtitle br {
-        display: none;
-    }
-    .hero-btn-container {
-        flex-direction: column;
-        align-items: start;
-        padding-bottom: 21px;
     }
     .hero-btn-modal {
         min-width: 120px;
@@ -152,34 +138,17 @@
         margin-top: 32px;
     }
     .hero-btn-scroll {
-        padding: 0;
-        margin: 32px 0 0;
-        margin-right: auto;
-        font-size: 12px;
-        line-height: 1.17;
         width: 120px;
-        height: 41px;
-
-    }
-    .hero-btn-scroll-container {
-        margin-left: 12px;
-        width: 28px;
-        height: 28px;
-    }
-    .hero-icon {
-        width: 28px;
-        height: 28px;
+        margin-right: auto;
     }
 }
-/* 376px - 767px */
-@media screen and (min-width: 376px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .hero-section {
         min-height: 621px;
         padding: 0px 20px 71px;
     }
     .hero-container {
         padding: 0px 20px;
-        width: 375px;
     }
     .hero-subtitle {
         max-width: 299px;
@@ -196,6 +165,30 @@
         align-items: start;
         padding-bottom: 21px;
     }
+    .hero-btn-scroll {
+        margin: 32px 0 0;
+        padding: 0;
+        align-items: center;
+        justify-content: start;
+        font-size: 12px;
+        line-height: 1.17;
+        height: 41px;
+    }
+    .hero-btn-scroll-container {
+        margin-left: 12px;
+        width: 28px;
+        height: 28px;
+    }
+    .hero-icon {
+        width: 28px;
+        height: 28px;
+    }
+}
+/* 376px - 767px */
+@media screen and (min-width: 376px) and (max-width: 767px) {
+    .hero-container {
+        width: 375px;
+    }
     .hero-mob-btn-container {
         display: flex;
     }
@@ -209,35 +202,13 @@
         max-height: 41px;
         padding: 12px 24px;
     }
-    /* ???????? */
     .hero-btn-scroll {
-        margin: 32px 0 0;
-        padding: 0;
-        align-items: center;
-        justify-content: start;
-        font-size: 12px;
-        line-height: 1.17;
         max-width: 120px;
-        height: 41px;
-    }
-    .hero-btn-scroll-container {
-        margin-left: 12px;
-        width: 28px;
-        height: 28px;
-    }
-    .hero-icon {
-        width: 28px;
-        height: 28px;
     }
 }
 @media screen and (max-width: 767px) {
     .hero-container {
         background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/Hero/herochoco-mobile.webp);
-        background-color: #FCF1E0;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 30px;
         width: 335px;
         min-height: 621px;
     }
@@ -247,11 +218,6 @@ screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .hero-container {
         background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/Hero/herochoco-mobile@2x.webp);
-        background-color: #FCF1E0;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 30px;
         width: 335px;
         min-height: 621px;
     }
@@ -269,11 +235,6 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .hero-container {
         background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/Hero/herochoco-tablet.webp);
-        background-color: #FCF1E0;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 30px;
         width: 704px;
         min-height: 890px;
     }
@@ -283,11 +244,6 @@ screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1199p
 screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px)  {
     .hero-container {
         background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/Hero/herochoco-tablet@2x.webp);
-        background-color: #FCF1E0;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 30px;
         width: 704px;
         min-height: 890px;
     }
@@ -302,11 +258,6 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px
 @media screen and (min-width: 1200px) {
     .hero-container {
         background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/Hero/herochoco-desktop.webp);
-        background-color: #FCF1E0;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 30px;
         width: 1136px;
     }
 }
@@ -315,11 +266,6 @@ screen and (min-resolution: 192dpi) and (min-width: 1200px),
 screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .hero-container {
         background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/Hero/herochoco-desktop@2x.webp);
-        background-color: #FCF1E0;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 30px;
         width: 1136px;
     }
 }
