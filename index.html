@@ -12,7 +12,7 @@
     />
     
     <script type="module" crossorigin src="/goit-team-project/assets/index-d7be90b4.js"></script>
-    <link rel="stylesheet" href="/goit-team-project/assets/index-b09d97c0.css">
+    <link rel="stylesheet" href="/goit-team-project/assets/index-836223b0.css">
   </head>
   <body>
     <header>
@@ -748,6 +748,7 @@
                     placeholder="Phone number"
                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
                     title="xxx-xxx-xx-xx"
+                    maxlength="12"
                     autocomplete="off" />
                         <svg  class="modal-buy-now-form-input-iconUA" width="32" height="24">
                             <use href="/goit-team-project/assets/sprite-d9ebf05c.svg#icon-IconUA"></use>
@@ -789,12 +790,9 @@
       <section class="topsellers" id="sellers">
 
   <div class="container">
-
-      <h1 class="topsellers-title"><span class="top">Top</span> Sellers</h1>
-  
-      <ul class="top-image list">
-          <li class="top-image-item">
-
+    <h1 class="topsellers-title"><span class="top">Top</span> Sellers</h1>       
+    <ul class="top-image list">
+        <li class="top-image-item">
               <picture>
                   <source
                     srcset="/goit-team-project/assets/topsellers-one-mobile-0beda291.jpg 1x, /goit-team-project/assets/topsellers-one-mobile@2x-9a82759d.jpg 2x"
@@ -809,14 +807,14 @@
                   />
                   <source
                     srcset="
-                        ./images/JPEG/topsellers-one-desktop.jpg    1x,
-                        ./images/JPEG/topsellers-one-desktop@2x.jpg 2x
+                    ./images/JPEG/topsellers-one.jpg    1x,
+                    ./images/JPEG/topsellers-one.@2xjpg 2x,
                     "
                     media="(min-width:1200px)"
                   />
                   <img
                     class="top-img"
-                    src="./images/JPEG/topsellers-one-desktop.jpg"
+                    src="/goit-team-project/assets/topsellers-one-f83aa830.jpg"
                     alt="dark chocolate"
                   />
               </picture>
@@ -874,15 +872,11 @@
             Crazy enough chocolate originates from a bean just like the coffee bean
             called Cacao. Cacao has been around for thousands of years and was first
             discovered by the Native American tribe called the Mayans.
-          </p>
-    
-          <button class="btn-buy-now" type="button" data-modal-open>Buy now</button>  
-    
+          </p>          
+          <button class="btn-buy-now" type="button" data-modal-open>Buy now</button>            
       </div>      
-
   </div>
-
-</section>
+</section> 
       
       <section class="reviews-section">
   <div class="container">
