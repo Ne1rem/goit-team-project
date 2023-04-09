@@ -8,9 +8,12 @@
 .made {
     display: flex;
     margin-top: 50px;
+    margin-bottom: 128px;
 }
 
-.made-content {
+.made-foto {
+    color: #ffff;
+    position: relative;
     
 }
 
@@ -53,8 +56,6 @@
     background-color: #ffff;
     border-radius: 5%;
     padding: 32px;
-    max-width: 516px;
-    max-height: 400px;
 }
 
 .made-text_made {
@@ -66,8 +67,12 @@
 
     color: #111;
 
-    padding-bottom: 28px;
+    margin-bottom: 28px;
 
+}
+
+.made-list {
+    padding-left: 16px;
 }
 
 .made-item {
@@ -87,5 +92,16 @@
 .made-item:not(:last-child) {
     padding-bottom: 24px;
 }
-    
 
+.icon-play {
+    position: absolute;
+    fill: #c0c0c0;
+    top: 46%;
+    left: 44%;
+}
+
+.icon-play:hover,
+.icon-play:focus {
+    fill: #ffff;
+    
+}
