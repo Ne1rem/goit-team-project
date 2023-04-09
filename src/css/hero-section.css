@@ -125,13 +125,22 @@
         align-items: start;
     }
     .hero-btn-modal {
+         min-width: 120px;
+        max-width: 120px;
+        height: 41px;
+        padding: 12px 22px;
         max-width: 120px;
         max-height: 41px;
         padding: 12px 28px;
         margin: auto;
         margin-top: 32px;
+        margin-right: 14px;
     }
     .hero-btn {
+        min-width: 150px;
+        max-width: 159px;
+        height: 41px;
+        padding: 10px 12px;
         max-width: 159px;
         max-height: 41px;
         padding: 12px 24px;
