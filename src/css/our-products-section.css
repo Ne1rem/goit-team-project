@@ -4,7 +4,6 @@
   width: 100%;
 }
 .products-container {
-  padding-top: 92px;
   padding-bottom: 92px;
 }
 .products-title {
@@ -93,7 +92,6 @@
     padding: 0 32px;
   }
   .products-container {
-    padding-top: 100px;
     padding-bottom: 100px;
   }
 
@@ -102,11 +100,10 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  .container {
+  .our-products .container {
     width: 1134px;
   }
-  .products-container {
-    padding-top: 128px;
+  .our-products .products-container {
     padding-bottom: 128px;
   }
 }
