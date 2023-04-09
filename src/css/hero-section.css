@@ -92,26 +92,76 @@
 .hero-btn-scroll:is(:hover, :focus) .hero-icon {
     fill: #FFFFFF;
 }
-
-@media screen and (max-width: 374px) {
+/* Стилі для екранів з шириною не більше 375px */
+@media only screen and (max-width: 375px) {
     .hero-container {
-        min-width: 320px;
-        width: 100%;
-        width: calc(100% - 20px);
-        margin: 0 auto;
-        padding: 0 20px;
-        box-sizing: border-box;
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/hero-img/hero-mob-1x.jpg);
+        background-color: #FCF1E0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto 100%, cover;
+        border-radius: 30px;
+        max-width: 335px;
+        min-height: 621px;
+        padding: 0px 20px;
     }
-}
+    .hero-section {
+        min-height: 621px;
+        padding: 0px 10px 71px;
+    }
+    .hero-subtitle {
+        min-height: 72px;
+        line-height: 1.2;
+        max-width: 299px;
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+    .hero-subtitle br {
+        display: none;
+    }
+    .hero-btn-container {
+        flex-direction: column;
+        align-items: start;
+    }
+    .hero-btn-modal {
+        max-width: 120px;
+        max-height: 41px;
+        padding: 12px 28px;
+        margin: auto;
+        margin-top: 32px;
+    }
+    .hero-btn {
+        max-width: 159px;
+        max-height: 41px;
+        padding: 12px 24px;
+        margin-top: 32px;
+    }
+    .hero-btn-scroll {
+        padding: 0;
+        margin: 32px 0 21px;
+        margin-right: auto;
+        font-size: 12px;
+        line-height: 1.17;
+        width: 120px;
+        height: 41px;
 
-@media screen and (max-width: 767px) {
+    }
+    .hero-btn-scroll-container {
+        margin-left: 12px;
+        width: 28px;
+        height: 28px;
+    }
+    
+}
+@media screen and (min-width: 376px) and (max-width: 767px) {
     .hero-section {
         min-height: 621px;
         padding: 0px 20px 71px;
     }
     .hero-container {
         padding: 0px 20px;
-        min-width: 375px;
+        width: 375px;
     }
     .hero-subtitle {
         max-width: 299px;
@@ -159,7 +209,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 376px) and (max-width: 767px) {
     .hero-container {
         background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/hero-img/hero-mob-1x.jpg);
         background-color: #FCF1E0;
@@ -167,13 +217,13 @@
         background-position: center;
         background-size: cover;
         border-radius: 30px;
-        min-width: 335px;
+        width: 335px;
         min-height: 621px;
     }
 }
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 376px) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (min-width: 376px) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (min-width: 376px) and (max-width: 767px) {
     .hero-container {
         background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/hero-img/hero-mob-2x.jpg);
         background-color: #FCF1E0;
@@ -181,7 +231,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         background-position: center;
         background-size: cover;
         border-radius: 30px;
-        min-width: 335px;
+        width: 335px;
         min-height: 621px;
     }
 }
@@ -243,7 +293,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         background-position: center;
         background-size: cover;
         border-radius: 30px;
-        max-width: 1136px;
+        width: 1136px;
     }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
@@ -256,6 +306,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         background-position: center;
         background-size: cover;
         border-radius: 30px;
-        max-width: 1136px;
+        width: 1136px;
     }
 }
