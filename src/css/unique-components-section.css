@@ -101,6 +101,7 @@
     text-align: left;
 
     opacity: 0;
+    pointer-events: none;
     transform: translateY(100%);
     transition-property: transform, opacity;
     transition-duration: 250ms;
@@ -115,6 +116,7 @@
   .components-item:is(:hover, :focus) .components-card-modal {
     transform: translateY(0);
     opacity: 1;
+    pointer-events: auto;
   }
 
   .components-item:is(:hover, :focus) {
