@@ -163,12 +163,16 @@
   position: absolute;
   top: 0;
   left: 0;
+  padding: 28px;
   width: 270px;
   height: 270px;
   background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  text-align: left;
+  opacity: 1;
 }
 .components-modal-subtitle {
-  /* position: absolute; */
   display: flex;
   font-weight: 600;
   font-size: 18px;
@@ -177,7 +181,20 @@
   color: var(--text-site-color);
   margin-bottom: 8px;
 }
+.modal-btns-list {
+  display: flex;
+  gap: 6px;
+}
+.modal-btns-item {
+}
 .components-btns {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.2;
+
+  display: flex;
+  align-items: center;
   border: 1px solid var(--main-site-color);
   border-radius: 35px;
   padding: 6px 16px;
@@ -185,8 +202,16 @@
 .components-modal-color-btn {
   background-color: var(--main-site-color);
 }
+.components-modal-color-btn:is(:hover, :focus) {
+  background: #fcf1e0;
+  color: var(--main-site-color);
+}
 .components-modal-white-btn {
   background-color: #fafafa;
+}
+.components-modal-white-btn:is(:hover, :focus) {
+  background: var(--main-site-color);
+  color: #fafafa;
 }
 .components-modal-text {
   font-weight: 400;
