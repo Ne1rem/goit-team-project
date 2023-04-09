@@ -35,6 +35,7 @@
     padding: 0 20px;
     margin: 0 auto;
     max-width: 335px;
+    /* min-width: 280px; */
   }
   .components img {
     max-width: 224px;
@@ -182,7 +183,7 @@
   }
   .components-container {
     padding: 0 32px;
-    max-width: 704px;
+    max-width: 768px;
   }
   .components-title {
     min-width: 411px;
