@@ -141,7 +141,7 @@
     background-color: #FAFAFA;
     border: 1.5px solid rgba(17, 17, 17, 0.05);
     border-radius: 13px;
-    transition: border-color var(--transition);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-buy-now-form-input-surname::placeholder {
     font-family: 'Montserrat';
@@ -312,7 +312,6 @@
         right: 24px;
         transform: translate(0,-50%);
         display: block;
-        
     }
     .modal-buy-now-form-message {
         font-size: 14px;
@@ -422,7 +421,6 @@
         left: 74px;
         padding-right:  32px;
     }
-   
     .modal-buy-now-form-input-ccard {
         display: none;
     }
