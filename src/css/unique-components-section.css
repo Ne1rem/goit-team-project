@@ -78,6 +78,7 @@
     padding: 28px 55px 71px;
     width: 335px;
     height: 270px;
+    overflow: hidden;
 
     border-radius: 15px;
     border: 1px solid #fd9222;
@@ -119,12 +120,10 @@
     opacity: 1;
     pointer-events: auto;
   }
-  .components-item:hover .components-list {
-    border: none;
-  }
 
   .components-item:is(:hover, :focus) {
-    border: none;
+    border: 1px solid #e2e2e2;
+    background-color: #fafafa;
   }
   .components-item:is(:hover, :focus) .components-subtitle {
     opacity: 0;

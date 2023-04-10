@@ -75,7 +75,6 @@
 }
 .modal-buy-choice-item {
     display: flex;
-    flex-wrap: wrap;
     background: #FFFFFF;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
@@ -250,7 +249,7 @@
         margin-bottom: 0;
     }
     .modal-buy-now-choice-button {
-        padding: 6px 15px;  
+        padding: 6px 13px;  
         width: 74px;
         height: 28px;
     }
@@ -330,6 +329,8 @@
 @media screen and (min-width: 768px) {
     .modal-buy-now {
         width: 608px;
+
+        height: 850px;
         padding: 48px;           
     }
     .modal-buy-now-close-button {
@@ -338,7 +339,7 @@
         top: 24px;
         right: 24px;
         padding: 6px;
-    } 
+    }    
     .modal-buy-now-close-button-icon {
         width: 14px;
         height: 14px;
@@ -347,11 +348,13 @@
         font-size: 24px;
         line-height: 1.17;
     }
-    .modal-buy-choice { flex-wrap: nowrap;
+    .modal-buy-choice {
+        flex-wrap: nowrap;
     gap: 16px;
     margin-bottom: 40px;
     }
     .modal-buy-choice-item {
+        flex-wrap: wrap;
         width: 160px;
         height: 196px;
         padding: 24px 20px 18px;
