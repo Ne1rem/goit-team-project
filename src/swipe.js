@@ -1,21 +1,15 @@
-const swiper = new Swiper('.swiper', {
+var swiper = new Swiper('.swiper', {
   // Optional parameters
+  spaceBetween: 18,
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
   direction: 'horizontal',
-  loop: true,
+  rewind: true,
 
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
+    clickable: true,
   },
 });
