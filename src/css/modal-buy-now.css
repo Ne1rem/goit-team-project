@@ -75,7 +75,6 @@
 }
 .modal-buy-choice-item {
     display: flex;
-    flex-wrap: wrap;
     background: #FFFFFF;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
@@ -239,6 +238,7 @@
         margin-bottom: 32px;
     }
     .modal-buy-choice-item {
+        flex-wrap: nowrap;
         width: 100%;
         height: 100%;
         padding: 8px 16px;
@@ -250,7 +250,7 @@
         margin-bottom: 0;
     }
     .modal-buy-now-choice-button {
-        padding: 6px 15px;  
+        padding: 6px 13px;  
         width: 74px;
         height: 28px;
     }
@@ -354,6 +354,7 @@
     margin-bottom: 40px;
     }
     .modal-buy-choice-item {
+        flex-wrap: wrap;
         width: 160px;
         height: 196px;
         padding: 24px 20px 18px;
