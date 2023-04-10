@@ -113,13 +113,14 @@ margin-right: auto;
 }
 @media screen and (min-width: 375px) {
   .container {
-    min-width: 320px;
     width: 100%;
       max-width: 375px;
   }
   .review-li {
     padding-left: 18px;
     padding-right: 18px;
+    margin-right: auto;
+    margin-left: auto;
   }
 .review-li.two {
 display: none;
