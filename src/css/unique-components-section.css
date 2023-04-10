@@ -110,7 +110,7 @@
     overflow: auto;
 
     transition-property: transform, opacity;
-    transition-duration: 500ms;
+    transition-duration: 350ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -141,12 +141,16 @@
   }
 
   .components-btns {
+    max-width: 114px;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 1.2;
+    letter-spacing: -0.02em;
 
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     border: 1px solid var(--main-site-color);
     border-radius: 35px;
@@ -173,7 +177,7 @@
     letter-spacing: -0.02em;
     color: #111111;
     margin-top: 14px;
-    overflow-y: scroll;
+    overflow-y: hidden;
   }
 }
 
@@ -235,5 +239,6 @@
   }
   .components-card-modal {
     width: 270px;
+    padding: 20px;
   }
 }
