@@ -1,7 +1,3 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-}
 .container {
     width: 100%;
     margin-left: auto;
@@ -17,7 +13,7 @@ body {
     text-decoration: none;
 }
 .topsellers-title {
-    color: #111111;
+    color: var(--text-site-color);
     font-weight: 600;
     letter-spacing: -0.03em;    
     text-transform: uppercase;
@@ -26,7 +22,7 @@ body {
     margin-top: 0;
 }
 .top {
-    color: #FD9222;
+    color: var( --main-site-color);
 }
 .top-image {
     display: flex;
@@ -38,7 +34,7 @@ body {
     border-radius: 15px;
 }
 .top-sellers-content {
-    color: #111111;
+    color: var(--text-site-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.25;
@@ -59,7 +55,7 @@ body {
     font-weight: 600;
     line-height: 1.22;
     color: #FFFFFF;
-    background-color: #FD9222;
+    background-color: var( --main-site-color);
     border: transparent;
     border-radius: 100px;
     gap: 14px;
@@ -133,7 +129,7 @@ body {
         justify-content: space-between;
     }
     .top-sellers-content-desktop {
-        color: #111111;
+        color: var(--text-site-color);
         font-weight: 400;
         font-size: 14px;
         line-height: 1.25;
@@ -151,9 +147,6 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1200px;
-    }
     .topsellers {
         padding-bottom: 128px;
     }
@@ -171,7 +164,7 @@ body {
     .btn-buy-now:hover,
     .btn-buy-now:focus {
         background-color: #FCF1E0;
-        color: #FD9222;
+        color: var( --main-site-color);
     }
 }
 
