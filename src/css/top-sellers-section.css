@@ -59,7 +59,7 @@ body {
     font-weight: 600;
     line-height: 1.22;
     color: #FFFFFF;
-    background-color: #FD9222;
+    background-color: var( --main-site-color);
     border: transparent;
     border-radius: 100px;
     gap: 14px;
@@ -151,9 +151,6 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1200px;
-    }
     .topsellers {
         padding-bottom: 128px;
     }
