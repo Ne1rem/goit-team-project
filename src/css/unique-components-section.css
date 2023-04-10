@@ -138,15 +138,20 @@
   .modal-btns-list {
     display: flex;
     gap: 6px;
+    /* justify-content: space-between; */
   }
 
   .components-btns {
+    max-width: 114px;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 1.2;
+    letter-spacing: -0.02em;
 
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     border: 1px solid var(--main-site-color);
     border-radius: 35px;
@@ -235,5 +240,6 @@
   }
   .components-card-modal {
     width: 270px;
+    padding: 20px;
   }
 }
