@@ -119,6 +119,9 @@
     opacity: 1;
     pointer-events: auto;
   }
+  .components-item:hover .components-list {
+    border: none;
+  }
 
   .components-item:is(:hover, :focus) {
     border: none;
