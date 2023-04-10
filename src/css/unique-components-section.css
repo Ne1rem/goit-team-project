@@ -119,12 +119,10 @@
     opacity: 1;
     pointer-events: auto;
   }
-  .components-item:hover .components-list {
-    border: none;
-  }
 
   .components-item:is(:hover, :focus) {
-    border: none;
+    border: 1px solid #e2e2e2;
+    background-color: #e2e2e2;
   }
   .components-item:is(:hover, :focus) .components-subtitle {
     opacity: 0;
