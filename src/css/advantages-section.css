@@ -4,8 +4,22 @@
 .advantages-list {
   max-width: 1100px;
   display: flex;
-  padding: 50px 50px;
-  gap: 70px;
+  padding: 50px 10px;
+  gap: 80px;
+  margin: auto;
+}
+.advantages-item.active {
+  position: relative;
+}
+
+.advantages-item.active::after {
+  content: '';
+  width: 124px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: rotate(90deg);
+  position: absolute;
+  top: 50%;
+  right: 98%;
 }
 .advantages-title {
   font-weight: 600;
@@ -20,6 +34,7 @@
   line-height: 1.21;
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
+  width: 308px;
 }
 .advantages-icon {
   fill: orange;
