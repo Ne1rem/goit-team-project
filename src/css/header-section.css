@@ -1,10 +1,15 @@
 /* Гумова верстка до 375px */
+.header {
+  padding-top: 20px;
+  padding-bottom: 14px;
+}
+
 .container {
   padding: 0 20px;
   margin: 0;
 }
 
-.header {
+.header-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -143,15 +148,18 @@
 
 /* Стилі для таблета */
 @media screen and (min-width: 768px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
   .container {
     max-width: 704px;
   }
 
-  .header {
+  .header-container {
     display: flex;
     justify-content: flex-start;
-    padding-top: 24px;
-    padding-bottom: 24px;
   }
 
   .header-logo {
@@ -181,15 +189,19 @@
 
 /* Стилі для десктопа */
 @media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 32px;
+  }
+
   .container {
     max-width: 1136px;
   }
 
-  .header {
-    padding-top: 24px;
-    padding-bottom: 32px;
+  .header-container {
     display: flex;
     flex-direction: row;
+    justify-content: unset;
   }
 
   .header-logo {
