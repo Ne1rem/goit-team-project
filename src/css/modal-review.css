@@ -265,10 +265,25 @@ resize: none;
     width: 28px;
     height: 28px;
   }
+  .span-review {
+    transform: translate( +75%, -180%);
+  }
+  .namber-review {
+    transform: translate( +90%, -50%);
+  }
 }
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
-
+  .btn-clo {
+    width: 28px;
+    height: 28px;
+  }
+  .span-review {
+    transform: translate( +75%, -180%);
+  }
+  .namber-review {
+    transform: translate( +90%, -50%);
+  }
 }
