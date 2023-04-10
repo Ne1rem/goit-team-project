@@ -141,6 +141,9 @@ display: none;
   .review-li.last {
     display: none;
   }
+  .review-li {
+    margin-right: 28px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .container {
