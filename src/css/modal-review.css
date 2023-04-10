@@ -18,7 +18,9 @@
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+ 
 }
 .input-form{
   width: 437px;
@@ -30,6 +32,7 @@
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 13px;
+color: rgba(64, 64, 64, 0.3);
 }
 .input-form.phone {
   position: relative;
@@ -42,14 +45,15 @@
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 13px;
+  color: rgba(64, 64, 64, 0.3);
 }
 .form-field {
   margin-bottom: 20px;
 }
 
 .btn-clo {
-  width: 14px;
-  height: 14px;
+  width: 28px;
+  height: 28px;
     justify-content: center;
     display: flex;
     margin: auto;
@@ -62,6 +66,7 @@
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms linear, visibility 250ms linear;
+  z-index: 11;
 }
 .is-hidden {
   visibility: hidden;
@@ -96,6 +101,7 @@ border: 1.5px solid rgba(17, 17, 17, 0.05);
   resize: none;
   margin-right: auto;
   margin-left: auto;
+  color: rgba(64, 64, 64, 0.3);
 }
 
 .svg-iconua {
@@ -141,15 +147,15 @@ border: transparent;
 }
 @media screen and (min-width: 375px) {
   .container {
-    min-width: 320px;
     width: 100%;
       max-width: 375px;
   }
   .review-modal {
     width: 311px;
     height: 471px;
- padding: 24px 24px;
-    
+padding-left: 24px;  
+padding-right: 24px;
+padding-top: 24px;
   }
   .input-form {
     width: 100%;
@@ -158,26 +164,48 @@ border: transparent;
   .input-form.phone {
     width: 100%;
     height: 45px;
+    padding-left: 115px;
   }
   .textarea-form {
-    width: 100%;
+    width: 263px;
     height: 91px;
   }
   .text-modal {
-    margin-bottom: 32px;
+    margin-top: 0;
+    margin-bottom: 20px;
   }
   .form-field {
     margin-bottom: 14px;
   }
   .text-modal {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.1;
     text-align: start;
+    margin-top: 0;
   }
   .modal-review-h  {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.1;
     text-align: start;
+  }
+  .btn-close {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .namber-review {
+    position: absolute;
+    transform: translate( +90%, -40%);
+    padding-right: 8px;
+  }
+  .btn-clo {
+    width: 24px;
+    height: 24px;
+  }
+  .span-review {
+    transform: translate( +75%, -160%);
+  }
+  .button-send-review {
+    padding: 12px 28px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -186,7 +214,57 @@ border: transparent;
     padding-left: 32px;
     padding-right: 32px;
   }
-
+  .namber-review {
+    padding-right: 32px;
+  }
+  .review-modal {
+    width: 517px;
+  height: 631px;
+padding-left: 40px;
+padding-right: 40px;
+  }
+  .input-form {
+    width: 437px;
+    height: 66px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: 22px;
+    padding-left: 24px;
+  }
+  .input-form.phone {
+    position: relative;
+    width: 437px;
+    height: 66px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: 22px;
+    padding-left: 160px;
+  }
+  .textarea-form {
+    padding: 22px 24px 93px;
+width: 437px;
+height: 137px;
+resize: none;
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  .text-modal {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .modal-review-h  {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .btn-clo {
+    width: 28px;
+    height: 28px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .container {
