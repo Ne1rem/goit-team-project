@@ -1,8 +1,18 @@
+.container {
+  width: 100%;
+}
+
+
+
+.reviews-section {
+ padding-bottom: 128px;
+}
+
+
 .review-list {
   display: flex;
   list-style: none;
-  padding: 0;
-  margin: 0;
+ 
 }
 .review-title {
   font-family: 'Montserrat';
@@ -13,24 +23,43 @@
   color: #111111;
   text-align: center;
   margin-bottom: 24px;
+  margin-top: 56px;
 }
 .review-li {
+  width: 360px;
+height: 200px;
+left: 0px;
+top: 42px;
   position: relative;
   display: inline-block;
   margin-right: 28px;
-  margin-bottom: 30px;
   padding-left: 24px;
   padding-right: 24px;
   background: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
   box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
   border-radius: 15px;
+  
+}
+.review-li:last-child {
+  margin-right: 0;
 }
 .button-review {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid #fd9222;
   border-radius: 100px;
   padding: 14px 40px;
   text-align: center;
+  background-color: #ffffff;
+  
+}
+.button-review:focus ,
+.button-review:hover {
+  background: #FD9222;
+  color: #ffffff;
 }
 .review-p {
   font-family: 'Montserrat';
@@ -56,17 +85,71 @@
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.2;
   color: rgba(17, 17, 17, 1);
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
   margin-bottom: 49px;
 }
 .img-review {
   position: absolute;
+transform: translate(+135%, -50%);
 }
 .review-banner {
-  margin-left: auto;
-  margin-right: auto;
+  width: 106px;
+  height: 13px;
+text-align: center;
+  display: inline-block;
+  
+}
+.banner-review-button {
+  color: transparent;
+  display: flex;
+  justify-content: center;
+  border: transparent;
+  margin-top: 81px;
   margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    width: 100%;
+      max-width: 375px;
+  }
+  .review-li {
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.review-li.two {
+display: none;
+}
+.review-li.last {
+display: none;
+}
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;       
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .review-li.two {
+    display: inline-block;
+  }
+  .review-li.last {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  .review-li {
+    display: inline-block;
+  }
+  .review-li.last {
+    display: inline-block;
+  }
 }
