@@ -78,6 +78,7 @@
     padding: 28px 55px 71px;
     width: 335px;
     height: 270px;
+    overflow: hidden;
 
     border-radius: 15px;
     border: 1px solid #fd9222;
