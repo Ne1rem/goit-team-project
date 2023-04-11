@@ -1,3 +1,8 @@
+.components {
+  padding: 72px 0 72px;
+  text-align: center;
+  margin: 0 auto;
+}
 .components-title-color {
   color: var(--main-site-color);
 }
@@ -24,17 +29,6 @@
 .components-item:nth-child(2n + 3) {
   background-color: var(--back-ground-color);
   border: none;
-}
-
-.components {
-  padding: 72px 0 72px;
-  text-align: center;
-  margin: 0 auto;
-}
-.components-container {
-  padding: 0 20px;
-  margin: 0 auto;
-  max-width: 335px;
 }
 .components img {
   max-width: 224px;
@@ -182,6 +176,11 @@
   overflow-y: hidden;
 }
 @media screen and (min-width: 375px) {
+  .components-container {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {
