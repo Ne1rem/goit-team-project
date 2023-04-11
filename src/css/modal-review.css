@@ -12,7 +12,7 @@
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms linear, visibility 250ms linear;
   z-index: 11;
-  opacity: 1,0;
+  opacity: 1;
 }
 .is-hidden {
   visibility: hidden;
@@ -50,6 +50,8 @@ background: #fafafa;
 border-radius: 15px;
 margin-left: auto;
 margin-right: auto;
+top: 50%;
+transform: translate(-0%, -50%);
 }
 .input-form {
   width: 100%;
@@ -177,6 +179,8 @@ border: transparent;
 padding-left: 24px;  
 padding-right: 24px;
 padding-top: 24px;
+top: 50%;
+transform: translate(-0%, -50%);
   }
   .input-form {
     width: 100%;
@@ -243,6 +247,7 @@ padding-top: 24px;
   height: 631px;
 padding-left: 40px;
 padding-right: 40px;
+transform: translate(-0%, -50%);
   }
   .input-form {
     width: 437px;
@@ -319,7 +324,7 @@ resize: none;
     margin-right: auto;
     padding-left: 40px;
     padding-right: 40px;
-   
+    transform: translate(-0%, -50%);
   }
   .input-form{
     width: 437px;
