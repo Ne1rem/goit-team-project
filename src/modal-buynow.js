@@ -4,6 +4,7 @@
     openSecondModalBtn: document.querySelector(
       '[data-modal-open-buynowsecond]'
     ),
+
     closeModalBtn: document.querySelector('[data-modal-close-buynow]'),
     modal: document.querySelector('[data-modal-buynow]'),
   };
