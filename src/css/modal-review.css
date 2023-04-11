@@ -12,7 +12,6 @@
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms linear, visibility 250ms linear;
   z-index: 11;
-  opacity: 1,0;
 }
 .is-hidden {
   visibility: hidden;
