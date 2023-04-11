@@ -171,6 +171,11 @@ padding: 14px 40px;
 margin-top: 18px;
 border: transparent;
 }
+.button-send-review:hover ,
+.button-send-review:focus {
+  background-color: #FCF1E0;
+  color: #FD9222;
+}
 @media screen and (min-width: 375px) {
   .container {
     width: 100%;
