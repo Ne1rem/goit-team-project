@@ -29,7 +29,7 @@
     backdrop-filter: blur(3px);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.buynow-backdrop.is-hidden {
+.buynow-backdrop {
     opacity: 1;
     visibility: visible;
     pointer-events: unset;
