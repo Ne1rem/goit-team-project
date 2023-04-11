@@ -2,7 +2,7 @@ var swiper = new Swiper('.swiper', {
   // Optional parameters
   spaceBetween: 18,
   grabCursor: true,
-  centeredSlides: true,
+  // centeredSlides: true,
   slidesPerView: 'auto',
   direction: 'horizontal',
   rewind: true,
