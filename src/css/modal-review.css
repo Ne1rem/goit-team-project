@@ -282,7 +282,7 @@ resize: none;
   .text-modal {
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
+    text-align: start;
     margin-bottom: 40px;
     max-width: none;
   }
@@ -378,6 +378,7 @@ border: 1.5px solid rgba(17, 17, 17, 0.05);
   color: #111111;
   margin-bottom: 40px;
   max-width: none;
+  text-align: start;
 }
 .form-field {
   margin-bottom: 20px;
