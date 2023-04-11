@@ -1,11 +1,11 @@
-<div class="backdrop is-hidden" data-modal-buynow>
+<div class="buynow-backdrop is-hidden" data-modal-buynow>
     <div class="modal-buy-now">            
         <button class="modal-buy-now-close-button" type="button" data-modal-close-buynow>
-            <svg class="modal-buy-now-close-button-icon" width="28" height="28">
+            <svg class="modal-buy-now-close-button-icon" width="24" height="24">
                 <use href="./images/sprite.svg#icon-close-button"></use>
             </svg>
         </button>
-        <h1 class="modal-buy-now-title"><span class="top">Buy</span> now</h1>
+        <h2 class="modal-buy-now-title"><span class="top">Buy</span> now</h2>
         <ul class="modal-buy-choice list">
             <li class="modal-buy-choice-item">
                 <picture class="picture">
@@ -156,7 +156,7 @@
                     class="modal-buy-now-form-input" 
                     required
                     placeholder="Enter  card" 
-                    pattern="[0-9\s]{13,19}"                        
+                    pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"                        
                     maxlength="19"
                     title="xxxx-xxxx-xxxx-xxxx"
                     />
