@@ -11,7 +11,7 @@
 .link {
     text-decoration: none;
 }
-.backdrop {
+.buynow-backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -29,7 +29,7 @@
     backdrop-filter: blur(3px);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop.is-hidden {
+.buynow-backdrop.is-hidden {
     opacity: 1;
     visibility: visible;
     pointer-events: unset;
@@ -461,6 +461,6 @@
 }
 @media screen and (min-width: 1200px) {
     .modal-buy-now {
-        top: 130px;          
+        top: 240px;          
     }
 }

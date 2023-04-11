@@ -32,6 +32,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    max-width: 100%;
     height: 100%;
 } 
 .top-img {
@@ -87,7 +88,7 @@ body {
         width: 100%;
     }
     .top-sellers-content {
-        width: 306px;   
+        width: 100%;   
         margin-top: 20px;
         margin-bottom: 0;
     }
@@ -96,6 +97,10 @@ body {
 @media screen and (min-width: 375px) {
     .container {
         max-width: 375px;
+    }
+    .top-img {
+        width: 335px;
+        height: 464px;
     }
 }
         
@@ -115,7 +120,6 @@ body {
     }
     .top-image {
         flex-wrap: nowrap;
-        width: 704px;
         height: 464px;
         gap: 16px;
         margin-bottom: 32px;
@@ -159,8 +163,9 @@ body {
     }
     .top-img,
     .top-img-desktop {
-        border-radius: 15px;
         width: 368px;
+        height: 464px;
+        border-radius: 15px;
     }
     .top-sellers-content-desktop {
         width: 406px;
