@@ -63,6 +63,7 @@ transform: translate(-0%, -50%);
   padding-bottom: 22px;
   padding-right: 22px;
   padding-left: 24px;
+  color: #111111;
 }
 .input-form::placeholder {
   color: rgba(64, 64, 64, 0.3);
@@ -74,6 +75,7 @@ transform: translate(-0%, -50%);
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 13px;
+  color: #111111;
 }
 .input-form.phone::placeholder {
   color: rgba(64, 64, 64, 0.3);
@@ -91,6 +93,7 @@ transform: translate(-0%, -50%);
   padding-bottom: 22px;
   padding-right: 22px;
   padding-left: 24px;
+  color: #111111;
 }
 .textarea-form::placeholder {
   color: rgba(64, 64, 64, 0.3);
