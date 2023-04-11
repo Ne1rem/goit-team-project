@@ -41,16 +41,16 @@ display: inline-block;
 .review-modal {
   position: relative;
   width: 311px;
-  height: 471px;
 padding-left: 24px;  
 padding-right: 24px;
-padding-top: 24px;
+padding-top: 32px;
 background: #fafafa;
 border-radius: 15px;
 margin-left: auto;
 margin-right: auto;
 top: 50%;
 transform: translate(-0%, -50%);
+min-height: 471px;
 }
 .input-form {
   width: 100%;
@@ -62,6 +62,7 @@ transform: translate(-0%, -50%);
   padding-bottom: 22px;
   padding-right: 22px;
   padding-left: 24px;
+  color: #111111;
 }
 .input-form::placeholder {
   color: rgba(64, 64, 64, 0.3);
@@ -73,6 +74,7 @@ transform: translate(-0%, -50%);
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 13px;
+  color: #111111;
 }
 .input-form.phone::placeholder {
   color: rgba(64, 64, 64, 0.3);
@@ -90,6 +92,7 @@ transform: translate(-0%, -50%);
   padding-bottom: 22px;
   padding-right: 22px;
   padding-left: 24px;
+  color: #111111;
 }
 .textarea-form::placeholder {
   color: rgba(64, 64, 64, 0.3);
@@ -110,6 +113,7 @@ transform: translate(-0%, -50%);
   font-style: normal;
   font-weight: 600;
   color: #111111;
+  max-width: 255px;
 }
 .modal-review-h  {
   font-family: 'Montserrat';
@@ -280,6 +284,7 @@ resize: none;
     line-height: 28px;
     text-align: center;
     margin-bottom: 40px;
+    max-width: none;
   }
   .modal-review-h  {
     font-size: 24px;
@@ -372,6 +377,7 @@ border: 1.5px solid rgba(17, 17, 17, 0.05);
   line-height: 28px;
   color: #111111;
   margin-bottom: 40px;
+  max-width: none;
 }
 .form-field {
   margin-bottom: 20px;
