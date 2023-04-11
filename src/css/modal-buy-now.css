@@ -35,6 +35,7 @@
     position: absolute;
     left: 50%;
     top: 50%; 
+    height: 100%;
     background: #FAFAFA;
     border-radius: 15px;
     transform: translate(-50%, -50%) scale(1);
@@ -215,7 +216,6 @@
 @media screen and (min-width: 320px) {
     .modal-buy-now {
         width: 312px;
-        height: 700px;
         padding: 32px  24px;          
     }
     .modal-buy-now-close-button {
@@ -329,8 +329,6 @@
 @media screen and (min-width: 768px) {
     .modal-buy-now {
         width: 608px;
-
-        height: 850px;
         padding: 48px;           
     }
     .modal-buy-now-close-button {
