@@ -173,7 +173,10 @@
         background-color: #fafafa;
         padding: 0 32px 128px 32px;
     }
-    
+    .юmade-section-container {
+        width: 1136px;
+        
+    }
     .made {
         display: flex;
         margin-top: 50px;
@@ -187,7 +190,7 @@
     .made-content{
         padding: 32px 32px 34px 32px;
         margin-left: 20px;
-        min-width: 768px;
+        max-width: 516px;
     }
     .made-text_made {
         margin-bottom: 28px;
