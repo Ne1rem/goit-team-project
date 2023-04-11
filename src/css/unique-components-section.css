@@ -92,7 +92,7 @@
   height: 270px;
   background-color: #fff;
   border-radius: 15px;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   text-align: left;
 
   opacity: 0;
@@ -240,10 +240,11 @@
   }
   .components-card-modal {
     padding: 20px;
-    width: 100%;
+    width: 270px;
   }
   .components-modal-text {
-    letter-spacing: -0.04em;
+    min-width: 230px;
+    /* letter-spacing: -0.04em; */
   }
   .components-modal-text-hidden {
     display: none;
