@@ -59,7 +59,7 @@
     color: #111;
 }
 
-.made-item {
+.made-item {padding-left: 8px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -147,6 +147,7 @@
         margin: 0 auto;
     }
     .made-content {
+        padding: 32px;
         width: 614px;
         margin-top: 20px;
         align-items: start;
