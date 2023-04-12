@@ -24,12 +24,7 @@
 
 .svg-iconua {
 display: inline-block;
-  flex-direction: row;
-  align-items: center;
-  gap: 18px; 
-  position: absolute;
   top: 45%;
-  transform: translate(0,-50%);
 }
 
 
@@ -160,7 +155,7 @@ min-height: 471px;
   position: absolute;
   display: flex;
   justify-content: center;
-  transform: translate( +75%, -160%);
+  transform: translate( +75%, -150%);
 }
 .button-send-review {
   padding: 12px 28px;
@@ -235,7 +230,7 @@ transform: translate(-0%, -50%);
     height: 24px;
   }
   .span-review {
-    transform: translate( +75%, -160%);
+    transform: translate( +75%, -150%);
   }
   .button-send-review {
     padding: 12px 28px;
@@ -301,7 +296,7 @@ resize: none;
     height: 28px;
   }
   .span-review {
-    transform: translate( +75%, -180%);
+    transform: translate( +75%, -190%);
   }
   .namber-review {
     transform: translate( +90%, -50%);
@@ -317,7 +312,7 @@ resize: none;
     height: 28px;
   }
   .span-review {
-    transform: translate( +75%, -180%);
+    transform: translate( +75%, -190%);
   }
   .namber-review {
     transform: translate( +90%, -50%);
@@ -433,7 +428,7 @@ color: #FD9222;
   position: absolute;
   display: flex;
   justify-content: center;
-  transform:translate( +75%, -180%);
+  transform:translate( +75%, -190%);
 
 }
 .button-send-review {
