@@ -345,7 +345,7 @@ resize: none;
     border: 1.5px solid rgba(17, 17, 17, 0.05);
     filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
     border-radius: 13px;
-  color: rgba(64, 64, 64, 0.3);
+  color: rgba(64, 64, 64, 1);
   }
 
 .input-form.phone {
@@ -359,7 +359,7 @@ resize: none;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 13px;
-  color: rgba(64, 64, 64, 0.3);
+  color: rgba(64, 64, 64, 1);
 }
 .textarea-form {
   padding: 22px 24px 93px;
@@ -372,7 +372,7 @@ border: 1.5px solid rgba(17, 17, 17, 0.05);
   resize: none;
   margin-right: auto;
   margin-left: auto;
-  color: rgba(64, 64, 64, 0.3);
+  color: rgba(64, 64, 64, 1);
 }
 .text-modal {
   font-family: 'Montserrat';
